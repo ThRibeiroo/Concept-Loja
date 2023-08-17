@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+:root {
+    --textoP: #000;
+    --texto: #ff0000;
+    --font-family: Rowdies, sans-serif; 
+}
+
+#square {
+    width: 100%;
+}
+
+#square-camisa {
+    position: absolute;
+    margin: 1rem;
+    width: 99%;
+    height: 45rem;
+}
+
+#quadradoUm {
+    display: flex;
+    margin: 1rem 0 0 45rem;
+    width: 70rem;
+    height: 40rem;
+    background-color: #fff;
+}
+
+#text-camisa {
+    margin-top: 5rem;
+}
+
+#text-camisa h1 {
+    margin: 0;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    text-align: start;
+    color: var(--texto);
+}
+
+#text-camisa li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    color: var(--textoP);
+    list-style: none;
+    font-weight: 400;
+    margin-top: .7rem;
+}
+
+section#icons-camisa {
+    margin-top: 8rem;
+    margin-left: 1.5rem;
+}
+
+div#icons-camisa {
+    display: flex;
+    flex-direction: column;
+}
+
+div#icons-camisa img {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#box {
+    margin: 5rem 0 0 2rem;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+}
+
+img#camisaAqui {
+    width: 30rem;
+    height: 30rem;
+    transform-origin: center center;
+    object-fit: cover;
+}
+
+section#text-right {
+    width: 21rem;
+}
+
+div#text-right {
+    margin: 6rem 0 0 2rem;
+}
+
+div#text-right li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    color: var(--textoP);
+    list-style: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+span#payment, #parcelado {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+section#icons-tamanho {
+    margin-left: 2rem;
+}
+
+section#icons-tamanho h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+hr {
+    margin: 1rem 0 1rem 0;
+    width: 20rem;
+
+}
+
+div#iconsTamanho {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-tamanhos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-tamanhos label {
+    padding: .5rem 1rem 0 1rem;
+    cursor: pointer;
+}
+
+.nTam {
+    cursor: pointer;
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.nTam:before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    background: #ff0000;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    position: absolute;
+}
+
+.nTam:checked:before {
+    opacity: 1;
+}
+
+.Qtd {
+    width: 100%;
+    height: 10rem;
+}
+
+.QtdPreco, .QtdPreco2 {
+    cursor: text;
+    appearance: none;
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid #cccccc;
+    border-radius: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+label.Preco {
+    font-size: 20pt;
+}
+
+#btn-enviar {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+  
+  

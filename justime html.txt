@@ -1,0 +1,358 @@
+    <a name="page-saopaulo">
+        <main class="sao-paulo">
+            <div class="square-sp">
+                <section class="camisasI">
+                    <h1>Camisa I</h1>
+                    <section class="camisas-square">
+                        <div class="camisasI-square">
+                            <img src="/image/camisas/saopaulo/camisa1.png" id="camisasI-square"
+                                onmousemove="mudaCamisaI(1)" onmouseout="mudaCamisaI(2)" onclick="mudaCamisaI(3)">
+                            <h3>Camisa São Paulo I 23/24<br>Torcedor Adidas Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="camisasI-squareII">
+                            <img src="/image/camisas/saopaulo/camisafem1.png" id="camisasII-square"
+                                onmousemove="mudaCamisaII(4)" onmouseout="mudaCamisaII(5)" onclick="mudaCamisaII(6)">
+                            <h3>Camisa São Paulo I 23/24<br>Torcedor Adidas Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="camisasI-squareIII" onclick="mudaCamisaIII(9)">
+                            <img src="/image/camisas/saopaulo/camisainf1.png" id="camisasIII-square"
+                                onmousemove="mudaCamisaIII(7)" onmouseout="mudaCamisaIII(8)" onclick="mudaCamisaIII(9)">
+                            <h3>Camisa São Paulo I 23/24<br>Torcedor Adidas Infantil</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="camisasII">
+                    <h1>Camisa II</h1>
+                    <section class="listrada-square">
+                        <div class="listradaI-square">
+                            <img src="/image/camisas/saopaulo/listrada1.png" id="listradaI-square"
+                                onmousemove="mudaCamisaIV(10)" onmouseout="mudaCamisaIV(11)" onclick="mudaCamisaIV(12)">
+                            <h3>Camisa São Paulo II 23/24<br>Torcedor Adidas Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="listradaI-squareII">
+                            <img src="/image/camisas/saopaulo/listradafem1.png" id="listradaII-square"
+                                onmousemove="mudaCamisaV(13)" onmouseout="mudaCamisaV(14)" onclick="mudaCamisaV(15)">
+                            <h3>Camisa São Paulo II 23/24<br>Torcedor Adidas Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="listradaI-squareIII" onclick="mudaCamisaVI(18)">
+                            <img src="/image/camisas/saopaulo/listradainf1.png" id="listradaIII-square"
+                                onmousemove="mudaCamisaVI(16)" onmouseout="mudaCamisaVI(17)" onclick="mudaCamisaVI(18)">
+                            <h3>Camisa São Paulo II 23/24<br>Torcedor Adidas Infantil</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="camisasIII">
+                    <h1>Camisa III</h1>
+                    <section class="mundial-square">
+                        <div class="mundialI-square">
+                            <img src="/image/camisas/saopaulo/mundial1.png" id="mundialI-square"
+                                onmousemove="mudaCamisaVII(19)" onmouseout="mudaCamisaVII(20)"
+                                onclick="mudaCamisaVII(21)">
+                            <h3>Camisa São Paulo III 23/24<br>Torcedor Adidas Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="mundialI-squareII">
+                            <img src="/image/camisas/saopaulo/mundialfem1.png" id="mundialII-square"
+                                onmousemove="mudaCamisaVIII(22)" onmouseout="mudaCamisaVIII(23)"
+                                onclick="mudaCamisaVIII(24)">
+                            <h3>Camisa São Paulo III 23/24<br>Torcedor Adidas Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="mundialI-squareIII">
+                            <img src="/image/camisas/saopaulo/treino1.png" id="mundialIII-square"
+                                onmousemove="mudaCamisaIX(25)" onmouseout="mudaCamisaIX(26)" onclick="mudaCamisaIX(27)">
+                            <h3>Camisa São Paulo 23/24<br>Treino Adidas Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+            </div>
+            <div class="main-bar"></div>
+        </main>
+    </a>
+    <a name="page-palmeiras">
+        <main class="palmeiras">
+            <div class="square-pal">
+                <section class="camisasI-pal">
+                    <h1>Camisa I</h1>
+                    <section class="camisas-square-pal">
+                        <div class="camisasI-square-pal">
+                            <img src="/image/camisas/palmeiras/camisaUm1.png" id="camisasI-square-pal"
+                                onmousemove="mudaCamisaPalI(1)" onmouseout="mudaCamisaPalI(2)"
+                                onclick="mudaCamisaPalI(3)">
+                            <h3>Camisa Palmeiras I 23/24<br>Torcedor Puma Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="camisasI-squareII-pal">
+                            <img src="/image/camisas/palmeiras/camisaUmfem1.png" id="camisasII-square-pal"
+                                onmousemove="mudaCamisaPalII(4)" onmouseout="mudaCamisaPalII(5)"
+                                onclick="mudaCamisaPalII(6)">
+                            <h3>Camisa Palmeiras I 23/24<br>Torcedor Puma Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="camisasI-squareIII-pal">
+                            <img src="/image/camisas/palmeiras/camisaUminf1.png" id="camisasIII-square-pal"
+                                onmousemove="mudaCamisaPalIII(7)" onmouseout="mudaCamisaPalIII(8)"
+                                onclick="mudaCamisaPalIII(9)">
+                            <h3>Mini Kit Palmeiras I 23/24<br>Torcedor Puma Infantil</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="camisasII-pal">
+                    <h1>Camisa II</h1>
+                    <section class="listrada-square-pal">
+                        <div class="listradaI-square-pal">
+                            <img src="/image/camisas/palmeiras/camisaDois1.png" id="listradaI-square-pal"
+                                onmousemove="mudaCamisaPalIV(10)" onmouseout="mudaCamisaPalIV(11)"
+                                onclick="mudaCamisaPalIV(12)">
+                            <h3>Camisa Palmeiras II 23/24<br>Torcedor Puma Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="listradaI-squareII-pal">
+                            <img src="/image/camisas/palmeiras/camisaDoisfem1.png" id="listradaII-square-pal"
+                                onmousemove="mudaCamisaPalV(13)" onmouseout="mudaCamisaPalV(14)"
+                                onclick="mudaCamisaPalV(15)">
+                            <h3>Camisa Palmeiras II 23/24<br>Torcedor Puma Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="listradaI-squareIII-pal" onclick="mudaCamisaVI(18)">
+                            <img src="/image/camisas/palmeiras/camisaDoisinf1.png" id="listradaIII-square-pal"
+                                onmousemove="mudaCamisaPalVI(16)" onmouseout="mudaCamisaPalVI(17)"
+                                onclick="mudaCamisaPalVI(18)">
+                            <h3>Camisa Palmeiras II 23/24<br>Torcedor Puma Infantil</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="camisasIII-pal">
+                    <h1>Camisa III</h1>
+                    <section class="mundial-square-pal">
+                        <div class="mundialI-square-pal">
+                            <img src="/image/camisas/palmeiras/camisaTres1.png" id="mundialI-square-pal"
+                                onmousemove="mudaCamisaPalVII(19)" onmouseout="mudaCamisaPalVII(20)"
+                                onclick="mudaCamisaPalVII(21)">
+                            <h3>Camisa Palmeiras III 22/23<br>Torcedor Puma Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="mundialI-squareII-pal">
+                            <img src="/image/camisas/palmeiras/camisaTresinf1.png" id="mundialII-square-pal"
+                                onmousemove="mudaCamisaPalVIII(22)" onmouseout="mudaCamisaPalVIII(23)"
+                                onclick="mudaCamisaPalVIII(24)">
+                            <h3>Camisa Palmeiras III 22/23<br>Torcedor Puma Infantil</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="mundialI-squareIII-pal">
+                            <img src="/image/camisas/palmeiras/golUm1.png" id="mundialIII-square-pal"
+                                onmousemove="mudaCamisaPalIX(25)" onmouseout="mudaCamisaPalIX(26)"
+                                onclick="mudaCamisaPalIX(27)">
+                            <h3>Camisa Palmeiras III 22/23<br>Torcedor Puma Infantil</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+
+            </div>
+            <div class="main-bar"></div>
+        </main>
+    </a>
+
+    <a name="page-corinthians">
+        <main class="corinthians">
+            <div class="square-cr">
+                <section class="camisasI-cr">
+                    <h1>Camisa I</h1>
+                    <section class="camisas-square-cr">
+                        <div class="camisasI-square-cr">
+                            <img src="/image/camisas/corinthians/camisaUm1.png" id="camisasI-square-cr"
+                                onmousemove="mudaCamisaCrI(1)" onmouseout="mudaCamisaCrI(2)" onclick="mudaCamisaCrI(3)">
+                            <h3>Camisa Corinthians I 22/23<br>Torcedor Nike Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="camisasI-squareII-cr">
+                            <img src="/image/camisas/corinthians/camisaUmfem1.png" id="camisasII-square-cr"
+                                onmousemove="mudaCamisaCrII(4)" onmouseout="mudaCamisaCrII(5)"
+                                onclick="mudaCamisaCrII(6)">
+                            <h3>Camisa Corinthians I 23/24<br>Torcedor Nike Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="camisasI-squareIII-cr">
+                            <img src="/image/camisas/corinthians/camisaUminf1.png" id="camisasIII-square-cr"
+                                onmousemove="mudaCamisaCrIII(7)" onmouseout="mudaCamisaCrIII(8)"
+                                onclick="mudaCamisaCrIII(9)">
+                            <h3>Camisa Corinthians Infantil I 22/23<br>Jogador Nike Infantil</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="camisasII-cr">
+                    <h1>Camisa II</h1>
+                    <section class="listrada-square-cr">
+                        <div class="listradaI-square-cr">
+                            <img src="/image/camisas/corinthians/camisaDois1.png" id="listradaI-square-cr"
+                                onmousemove="mudaCamisaCrIV(10)" onmouseout="mudaCamisaCrIV(11)"
+                                onclick="mudaCamisaCrIV(12)">
+                            <h3>Camisa Corinthians II 22/23<br>Jogador Nike Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="listradaI-squareII-cr">
+                            <img src="/image/camisas/corinthians/camisaDoisfem1.png" id="listradaII-square-cr"
+                                onmousemove="mudaCamisaCrV(13)" onmouseout="mudaCamisaCrV(14)"
+                                onclick="mudaCamisaCrV(15)">
+                            <h3>Camisa Corinthians II 23/24<br>Torcedor Nike Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="camisasIII-cr">
+                    <h1>Camisa III</h1>
+                    <section class="mundial-square-cr">
+                        <div class="mundialI-square-cr">
+                            <img src="/image/camisas/corinthians/camisaQuatro1.png" id="mundialI-square-cr"
+                                onmousemove="mudaCamisaCrVI(16)" onmouseout="mudaCamisaCrVI(17)"
+                                onclick="mudaCamisaCrVI(18)">
+                            <h3>Camisa Corinthians IV 20/21<br>Torcedor Nike Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="mundialI-squareII-cr">
+                            <img src="/image/camisas/corinthians/golUm1.png" id="mundialII-square-cr"
+                                onmousemove="mudaCamisaCrVII(19)" onmouseout="mudaCamisaCrVII(20)"
+                                onclick="mudaCamisaCrVII(21)">
+                            <h3>Camisa Goleiro Corinthians 23/24<br>Torcedor Nike Masculina - Amarela</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="mundialI-squareIII-cr">
+                            <img src="/image/camisas/corinthians/golDois1.png" id="mundialIII-square-cr"
+                                onmousemove="mudaCamisaCrVIII(22)" onmouseout="mudaCamisaCrVIII(23)"
+                                onclick="mudaCamisaCrVIII(24)">
+                            <h3>Camisa Goleiro Corinthians 23/24<br>Torcedor Nike Masculina - Azul</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 0,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+            </div>
+            <div class="main-bar"></div>
+        </main>
+    </a>
+    <a name="page-santos">
+        <main class="santos">
+            <div class="square-st">
+                <section class="camisasI-st">
+                    <h1>Camisa I</h1>
+                    <section class="camisas-square-st">
+                        <div class="camisasI-square-st">
+                            <img src="/image/camisas/santos/camisaUm1.png" id="camisasI-square-st"
+                                onmousemove="mudaCamisaStI(1)" onmouseout="mudaCamisaStI(2)" onclick="mudaCamisaStI(3)">
+                            <h3>Camisa I Santos 23<br>Jogador Umbro Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="camisasI-squareII-st">
+                            <img src="/image/camisas/santos/camisaUmfem1.png" id="camisasII-square-st"
+                                onmousemove="mudaCamisaStII(4)" onmouseout="mudaCamisaStII(5)"
+                                onclick="mudaCamisaStII(6)">
+                            <h3>Camisa I Santos 23<br>Torcedor Umbro Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="camisasI-squareIII-st">
+                            <img src="/image/camisas/santos/camisaUminf1.png" id="camisasIII-square-st"
+                                onmousemove="mudaCamisaStIII(7)" onmouseout="mudaCamisaStIII(8)"
+                                onclick="mudaCamisaStIII(9)">
+                            <h3>Camisa I Santos 23<br>Torcedor Umbro Infantil</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+                <section class="camisasII-st">
+                    <h1>Camisa II</h1>
+                    <section class="listrada-square-st">
+                        <div class="listradaI-square-st">
+                            <img src="/image/camisas/santos/camisaDois1.png" id="listradaI-square-st"
+                                onmousemove="mudaCamisaStIV(10)" onmouseout="mudaCamisaStIV(11)"
+                                onclick="mudaCamisaStIV(12)">
+                            <h3>Camisa Corinthians II 22/23<br>Jogador Nike Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="listradaI-squareII-st">
+                            <img src="/image/camisas/santos/camisaDoisfem1.png" id="listradaII-square-st"
+                                onmousemove="mudaCamisaStV(13)" onmouseout="mudaCamisaStV(14)"
+                                onclick="mudaCamisaStV(15)">
+                            <h3>Camisa Corinthians II 23/24<br>Torcedor Nike Feminina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+                <section class="camisasIII-st">
+                    <h1>Camisa III</h1>
+                    <section class="mundial-square-st">
+                        <div class="mundialI-square-st">
+                            <img src="/image/camisas/santos/camisaTres1.png" id="mundialI-square-st"
+                                onmousemove="mudaCamisaStVI(16)" onmouseout="mudaCamisaStVI(17)"
+                                onclick="mudaCamisaStVI(18)">
+                            <h3>Camisa Corinthians IV 20/21<br>Torcedor Nike Masculina</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="mundialI-squareII-st">
+                            <img src="/image/camisas/santos/camisaTresfem1.png" id="mundialII-square-st"
+                                onmousemove="mudaCamisaStVII(19)" onmouseout="mudaCamisaStVII(20)"
+                                onclick="mudaCamisaStVII(21)">
+                            <h3>Camisa Goleiro Corinthians 23/24<br>Torcedor Nike Masculina - Amarela</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 00,00 com juros</p>
+                        </div>
+                        <div class="mundialI-squareIII-st">
+                            <img src="/image/camisas/santos/camisaTresinf1.png" id="mundialIII-square-st"
+                                onmousemove="mudaCamisaStVIII(22)" onmouseout="mudaCamisaStVIII(23)"
+                                onclick="mudaCamisaStVIII(24)">
+                            <h3>Camisa Goleiro Corinthians 23/24<br>Torcedor Nike Masculina - Azul</h3>
+                            <h2>R$ 00,00 à vista</h2>
+                            <p>ou 4x 0,00 com juros</p>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </main>
+    </a>

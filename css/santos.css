@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+:root {
+    --quadrado: var(#fff);
+    --texto: var(#505050);
+}
+
+.main-bar {
+    width: 100%;
+    height: 5rem;
+}
+
+main.santos {
+    margin-top: 3rem;
+}
+
+.square-st {
+    position: relative;
+    display: flex;
+    margin: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 56rem;
+}
+
+.camisasI-st, .camisasII-st, .camisasIII-st {
+    display: block;
+    margin: .5rem;
+    background-color: var(--quadrado);
+    width: 48rem;
+    height: 40rem;
+}
+
+.camisasI-st h1, .camisasII-st h1, .camisasIII-st h1{
+    font-family: Rowdies, sans-serif; 
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, black, transparent);
+    height: 3rem;
+    border-radius: 0rem 0rem 0rem 1rem;
+    box-shadow: 0 1.1rem 1rem -1rem #000;
+}
+
+.camisas-square-st, .listrada-square-st, .mundial-square-st  {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    align-items: center;
+}
+
+.camisasI-square-st, .mundialI-square-st, .mundialI-squareII-st, .mundialI-squareIII-st, .listradaI-square-st  {
+    cursor: pointer;
+}
+
+.camisasI-square-st img, .camisasI-squareII-st img, .camisasI-squareIII-st img, .listradaI-square-st img, .listradaI-squareII-st img, .listradaI-squareIII-st , .mundialI-square-st img, .mundialI-squareII-st img, .mundialI-squareIII-st img{
+    width: 15rem;
+    height: 15rem;
+    cursor: pointer;
+}
+
+.camisasI-square-st h3, .camisasI-squareII-st h3, .camisasI-squareIII-st h3, .listradaI-square-st h3, .listradaI-squareII-st h3, .listradaI-squareIII-st h3, .mundialI-square-st h3, .mundialI-squareII-st h3, .mundialI-squareIII-st h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.camisasI-square-st h2, .camisasI-squareII-st , .camisasI-squareIII-st h2, .listradaI-square-st h2, .listradaI-squareII-st h2, .listradaI-squareIII-st h2, .mundialI-square-st h2, .mundialI-square-st h2, .mundialI-squareII-st h2, .mundialI-squareIII-st h2 {
+    font-weight: 800;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.camisasI-square-st p, .camisasI-squareII-st p, .camisasI-squareIII-st p, .listradaI-square-st p, .listradaI-squareII-st p, .listradaI-squareIII-st p, .mundialI-square-st p, .mundialI-squareII-st p, .mundialI-squareIII-st p {
+    font-weight: 500;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.camisasI-squareII-st, .camisasI-squareIII-st {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.listradaI-squareII-st {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+
+.mundialI-squareII-st {
+    margin: 0 1rem;
+}

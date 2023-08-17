@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.squareone {
+    margin-top: 1rem;
+    margin-left: 30%;
+    width: 31rem;
+    height: 30rem;
+}
+
+.squareone img {
+    width: 60rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.squaremarcas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+    width: 70rem;
+    height: 3rem;
+}
+
+.saopaulo, .palmeiras, .corinthians, .santos, .flamengo, .fluminense, .botafogo, .vasco{
+    height: 3rem;
+}
+
+.saopaulo img, .palmeiras img, .corinthians  img, .santos img, .flamengo img, .fluminense img, .botafogo img, .vasco img {
+    width: 4rem;
+    height: 4rem;
+
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Time</title>
+    <link rel="shortcut icon" href="/image/biglogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/camisa-saopauloI2324-masculina.css">
+</head>
+
+<body>
+    <div class="header-bar"></div>
+    <header class="top">
+        <div class="main-bar">
+            <section class="logo">
+                <a href="/"><img id="logo" src="/image/justtimetwo.png" class="logo-image"></a>
+            </section>
+            <section class="search">
+                <input type="text" id="btn-pesquisar" autocomplete="off" required>
+                <label for="nome-box">Pesquisar</label>
+            </section>
+            <section class="login">
+                <a href="/">
+                    <h1>Login</h1>
+                </a>
+                <a href="/">
+                    <h1>Meu Carrinho</h1>
+                </a>
+                <a href="/">
+                    <h1>Contato</h1>
+                </a>
+            </section>
+        </div>
+    </header>
+    
+    <main id="square">
+        <section id="square-camisa">
+            <div id="quadradoUm">
+                <section id="text-camisa">
+                    <h1>Camisa São Paulo I 23/24<br> s/n° Torcedor Adidas Masculina <br> Branco+Vermelho</h1>
+                    <div id="text-camisa">
+                        <li><strong>Indicado para:</strong> Dia a Dia</li>
+                        <li><strong>Clube:</strong>Nacional</li>
+                        <li><strong>Time:</strong>São Paulo SP</li>
+                        <li><strong>Gola:</strong>Gola V</li>
+                        <li><strong>Material:</strong>Poliéster</li>
+                    </div>
+                </section>
+                <section id="icons-camisa">
+                    <div id="icons-camisa">
+                        <img src="/image/camisas/saopaulo/icons/camisaUm1.png" alt="Icone Um" id="camisaUm"
+                        onclick="mudaCamisa(1)">
+                        <img src="/image/camisas/saopaulo/icons/CamisaUm2.png" alt="Icone Dois" id="camisaDois"
+                        onclick="mudaCamisa(2)">
+                        <img src="/image/camisas/saopaulo/icons/CamisaUm3.png" alt="Icone Tres" id="camisaTres"
+                        onclick="mudaCamisa(3)">
+                        <img src="/image/camisas/saopaulo/icons/CamisaUm4.png" alt="Icone Quatro" id="camisaQuatro"
+                        onclick="mudaCamisa(4)">
+                    </div>
+                </section>
+                <section id="image-camisa">
+                    <div id="box">
+                        <img id="camisaAqui" src="/image/camisas/saopaulo/camisa1.png" alt="Imagem Camisa Um">
+                    </div>
+                </section>
+                <section id="text-right">
+                    <div id="text-right">
+                        <li><strong>R$00,00</strong> <span id="payment"> à vista </span></li>
+                        <li><span id="parcelado">ou R$ 00,00 em até 4x sem juros</span></li>
+                    </div>
+                
+                <section id="icons-tamanho">
+                    <hr>
+                    <h1>Tamanhos</h1>
+                    <div id="iconsTamanho">
+                        <div class="form-tamanhos">
+                            <input type="radio" name="tamanhos" class="nTam" id="nP" checked>
+                            <label for="nP">P</label>
+                        </div>
+                        <div class="form-tamanhos">
+                            <input type="radio" name="tamanhos" class="nTam" id="nM">
+                            <label for="nM">M</label>
+                        </div>
+                        <div class="form-tamanhos">
+                            <input type="radio" name="tamanhos" class="nTam" id="nG">
+                            <label for="nG">G</label>
+                        </div>
+                        <div class="form-tamanhos">
+                            <input type="radio" name="tamanhos" class="nTam" id="nGG">
+                            <label for="nGG">GG</label>
+                        </div>
+                    </div>
+                    <div class="Qtd">
+                        <hr>
+                        <form method="post" id="camisaQtd" oninput="calc_Camisa();">
+                            <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0" class="QtdPreco">
+                            <p><label for="cTot" class="Preco">Preço total</label>
+                                <input type="text" name="tTot" id="cTot" placeholder="Total" readonly class="QtdPreco2"></p>
+                            </form>
+                        </div>
+                        <input type="submit" name="enviar" id="btn-enviar" value="comprar" onclick="enviarMsg();">
+                    </section>
+                </section>
+                </div>
+            </section>
+        </main>
+        <script src="/java/iconsclick.js"></script>
+        <script src="/java/camisazoom.js"></script>
+        <script src="/java/teste1.js"></script>
+        <script src="/java/calcSaoPaulo.js"></script>
+    </body>
+    
+    </html>

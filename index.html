@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Time</title>
+    <link rel="shortcut icon" href="/image/biglogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/saopaulo.css">
+    <link rel="stylesheet" href="/css/palmeiras.css">
+    <link rel="stylesheet" href="/css/corinthians.css">
+    <link rel="stylesheet" href="/css/santos.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script>
+        function pesqTudo() {
+            var pesq = parseInt(document.getElementById('btn-pesquisar').value);
+            if (getElementById('SP')) {
+                location.href = 'camisa-saopauloI2324-masculina.html';
+            }
+            document.getElementById('SP').location.href = 'camisa-saopauloI2324-masculina.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header-bar"></div>
+    <header class="top">
+        <div class="main-bar">
+            <section class="logo">
+                <a href="/"><img src="/image/justtimetwo.png" class="logo-image"></a>
+            </section>
+            <section class="search">
+                <form method="post" id="pesqTudo" oninput="pesqTudo"></form>
+                <input type="text" name="btn-Pesq" id="btn-pesquisar" autocomplete="off" list="nomeTimes" required>
+                <label for="btn-pesquisar">Pesquisar</label>
+                <datalist id="nomeTimes">
+                    <option value="São Paulo" id="SP"></option>
+                    <option value="Santos"></option>
+                    <option value="Palmeiras"></option>
+                    <option value="Corinthians"></option>
+                </datalist>
+            </section>
+            <section class="login">
+                <a href="/">
+                    <h1>Login</h1>
+                </a>
+                <a href="/">
+                    <h1>Meu Carrinho</h1>
+                </a>
+                <a href="/">
+                    <h1>Contato</h1>
+                </a>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div class="squareone">
+            <body onload="slide1()">
+                <a id="lancamentos"><img src="/image/slide/SLIDE1.jpg" id="lancamento" alt="Camisa 2024"></a>
+        </body>
+        </div>
+        
+    </main>
+<footer>
+    <div id="footer-main">
+        <div id="text-footer">
+        <a href="/">Inicio</a>
+        <a href="/">Contato</a>
+        <a href="/">Quem somos</a>
+        </div>
+        <div id="copr">
+            <h1>Todos os direitos<br>Reservados por JustTime.</h1>
+        </div>
+        <div id="img-footer">
+            <a href="/"><img src="/image/instagram.png" id="instagram" alt="Instagram da JustTime"></a>
+            <a href="/"><img src="/image/whatsapp.png" id="whatsapp" alt="WhatsApp da JustTime"></a>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script src="/java/saopaulocamisas.js"></script>
+    <script src="/java/palmeirascamisas.js"></script>
+    <script src="/java/corinthianscamisas.js"></script>
+    <script src="/java/santoscamisas.js"></script>
+    <script src="/java/lancamento.js"></script>
+
+</body>
+
+</html>

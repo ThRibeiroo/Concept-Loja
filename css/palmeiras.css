@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+:root {
+    --quadrado: var(#fff);
+    --texto: var(#505050);
+}
+
+.main-bar {
+    width: 100%;
+    height: 5rem;
+}
+
+main.palmeiras {
+    margin: 0;
+}
+
+.square-pal {
+    position: relative;
+    display: flex;
+    margin: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 30rem;
+}
+
+.camisasI-pal {
+    display: block;
+    margin: .5rem;
+    background-color: var(--quadrado);
+    width: 48rem;
+    height: 30rem;
+}
+
+.camisasI-square-pal {
+    cursor: pointer;
+}
+
+.camisas-square-pal {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    align-items: center;
+}
+
+.camisasI-square-pal img, .camisasI-squareII-pal img, .camisasI-squareIII-pal img, .listradaI-square-pal img, .listradaI-squareII-pal img, .listradaI-squareIII-pal img, .mundialI-square-pal img, .mundialI-squareII-pal img, .mundialI-squareIII-pal img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.camisasI-square-pal h3, .camisasI-squareII-pal h3, .camisasI-squareIII-pal h3,.listradaI-square-pal h3, .listradaI-squareII-pal h3, .listradaI-squareIII-pal h3, .mundialI-square-pal h3, .mundialI-squareII-pal h3, .mundialI-squareIII-pal h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.camisasI-square-pal h2, .camisasI-squareII-pal h2, .camisasI-squareIII-pal h2, .listradaI-square-pal h2, .listradaI-squareII-pal h2, .listradaI-squareIII-pal h2, .mundialI-square-pal h2, .mundialI-squareII-pal h2, .mundialI-squareIII-pal h2 {
+    font-weight: 800;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.camisasI-square-pal p, .camisasI-squareII-pal p, .camisasI-squareIII-pal p, .listradaI-square-pal p, .listradaI-squareII-pal p, .listradaI-squareIII-pal p, .mundialI-square-pal p, .mundialI-squareII-pal p, .mundialI-squareIII-pal p  {
+    font-weight: 500;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.camisasI-squareII-pal, .camisasI-squareIII-pal, .listradaI-square-pal, .listradaI-squareII-pal, .listradaI-squareIII-pal, .mundialI-square-pal, .mundialI-squareII-pal, .mundialI-squareIII-pal {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.camisasII-pal, .camisasIII-pal {
+    display: block;
+    margin: .5rem;
+    background-color: #fff;
+    width: 52rem;
+    height: 50rem;
+}
+
+.camisasI-pal h1, .camisasII-pal h1, .camisasIII-pal h1{
+    font-family: Rowdies, sans-serif; 
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #007209, transparent);
+    height: 3rem;
+    border-radius: 0rem 0rem 0rem 1rem;
+    box-shadow: 0 1.1rem 1rem -1rem #000;
+}
+
+.listrada-square-pal, .mundial-square-pal {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    align-items: center;
+}
+
+
+.listradaI-squareII-pal, .mundialI-squareII-pal {
+    margin: 0 1rem;
+}
